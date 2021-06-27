@@ -1,16 +1,25 @@
-# demo_project
+# Movie App
+powered by [themoviedb](https://www.themoviedb.org/)
 
-A new Flutter project.
+### Technologies used
+* Moviedb Api
+* flutter sqflite
+* Provider
 
-## Getting Started
+### Features
+* Search for Movies and Series
+* Get movies and series by category
+* Adding favourites
 
-This project is a starting point for a Flutter application.
+### Folder structure
+* data - Contains models and api calls
+* logit - Contains provider logic
+* presentation - Contains UI
 
-A few resources to get you started if this is your first Flutter project:
+### Commands for running the project
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+```
+flutter run // Run command
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+flutter build // Build command
+```
