@@ -2,7 +2,7 @@ import 'package:demo_project/data/models/genre.dart';
 import 'package:dio/dio.dart';
 
 class ApiService {
-  final String _apiKey = '51934a7ff8a90d25b567560fc5e6615b';
+  final String _apiKey = 'YOUR-API-KEY-HERE';
   final String baseUrl = 'https://api.themoviedb.org/3';
 
   void getAllMovieData() async {
